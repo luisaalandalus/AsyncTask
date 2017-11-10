@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         return res;
 
     }
-
+    // Hilos  Java
     class MiThread extends Thread {
         private int n, res;
 
@@ -57,6 +57,8 @@ public class MainActivity extends AppCompatActivity {
             });
         }
     }
+
+    // Async Task
 
     class MiTarea extends AsyncTask <Integer, Integer, Integer> {
 
